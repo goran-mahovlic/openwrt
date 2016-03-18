@@ -699,6 +699,13 @@ config ATH79_MACH_RB750
 	select ATH79_DEV_USB
 	select ATH79_ROUTERBOOT
 
+config ATH79_MACH_RB_WAP_HB
+        bool "MikroTik RouterBOARD WAP support"
+        select SOC_QCA953X
+        select ATH79_DEV_ETH
+        select ATH79_DEV_M25P80
+        select ATH79_DEV_WMAC
+
 config ATH79_MACH_RB91X
 	bool "MikroTik RouterBOARD 91X support"
 	select SOC_AR934X

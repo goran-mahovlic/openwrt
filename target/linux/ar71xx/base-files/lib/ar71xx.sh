@@ -692,6 +692,9 @@ ar71xx_board_detect() {
 	*"RouterBOARD 751G")
 		name="rb-751g"
 		;;
+        *"RouterBOARD wAP")
+                name="rb-wap-hb"
+                ;;
 	*"RouterBOARD 911G-2HPnD")
 		name="rb-911g-2hpnd"
 		;;
@@ -728,6 +731,9 @@ ar71xx_board_detect() {
 	*"RouterBOARD 2011UiAS-2HnD")
 		name="rb-2011uias-2hnd"
 		;;
+        *"RouterBOARD wAP")
+                name="rb-wap"
+                ;;
 	*"RouterBOARD SXT Lite2")
 		name="rb-sxt2n"
 		;;

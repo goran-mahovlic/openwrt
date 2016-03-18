@@ -234,6 +234,7 @@ get_status_led() {
 	rb-750)
 		status_led="rb750:green:act"
 		;;
+        rb-wap-hb|\
 	rb-911g-2hpnd|\
 	rb-911g-5hpacd|\
 	rb-911g-5hpnd|\
